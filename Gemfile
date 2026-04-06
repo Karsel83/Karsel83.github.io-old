@@ -1,13 +1,11 @@
 source "https://rubygems.org"
 
-# 원격 테마 사용 시, 테마 자체를 gem으로 가져오는 줄을 주석 처리하거나 삭제합니다.
-# gem "jekyll-theme-chirpy" <--- 이 줄이 있다면 삭제하세요.
-
-gem "jekyll-remote-theme"
-gem "jekyll-include-cache"
+# 원격 테마 대신 테마 엔진을 직접 사용합니다.
+gem "jekyll-theme-chirpy", "~> 7.0"
 
 group :jekyll_plugins do
   gem "jekyll-archives"
+  gem "jekyll-include-cache"
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
