@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
+  gem "jekyll-redirect-from"
   gem "jekyll-include-cache"
   gem "jekyll-archives"
   gem "jekyll-paginate"
