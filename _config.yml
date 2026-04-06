@@ -2,7 +2,7 @@
 
 # Import the theme
 
-remote_theme: cotes2020/jekyll-theme-chirpy@master
+remote_theme: cotes2020/jekyll-theme-chirpy
 # Plugins settings
 plugins:
   - jekyll-remote-theme
